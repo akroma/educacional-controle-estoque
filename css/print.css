@@ -1,0 +1,123 @@
+#header,
+#operacoes,
+#miolo .header,
+#gerarRelatorio{
+	display: none;
+}
+
+* {
+	background:transparent !important;
+	color:#000 !important;
+	text-shadow:none !important;
+	filter:none !important;
+	-ms-filter:none !important;
+}
+*{
+	border: none;
+	width: auto;
+	margin: 0px;
+	padding: 0px;
+	color: black;
+}
+@page {
+	margin: 1cm;
+}
+.container{
+	width: auto;
+	border: none;
+}
+#operacoes{
+	margin: 0px;
+	padding: 0px;
+}
+
+#relatorio table{
+	width: 100%;
+	border-collapse: collapse;
+	padding: 0px;
+}
+#relatorio table th,
+#relatorio table td{
+	border: none;
+	border-bottom: solid 1px black;
+}
+#relatorio th,
+#relatorio td{
+	background: white;
+}
+#relatorio thead th {
+	background: white;
+}
+#content .container {
+	padding: 0px;
+	margin: 0px;
+	box-shadow: none;
+}
+
+#relatorio thead th *,
+#relatorio thead th span{
+	font-size: 32px;
+	color: black;
+	padding: 20px 0px;
+}
+#relatorio .header1 th *{
+	color: #414141;
+}
+#relatorio table td {
+	text-indent: 30px;
+}
+.plus .label,
+.minus .label {
+	color: black;
+	background: white;
+}
+.label {
+	border: none;
+	padding: 0px;
+}
+#relatorio{
+	position: relative;
+	height: 100%;
+}
+#relatorio .relatorio{
+	position: relative;
+	display: block;
+    page-break-inside: avoid;
+	page-break-after: always !important;
+	overflow: hidden;
+
+	box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    padding: 1cm;
+    margin: 1cm auto;
+	width: 21cm;
+    min-height: 29.7cm;
+}
+
+@page {
+    size: A4;
+    margin: 0;
+}
+
+#relatorio hr{
+	display: none;
+}
+.assinatura{
+	display: block;
+	margin-top: 30px;
+	padding-top: 60px;
+	width: 30%;
+	float: right;
+	clear: both;
+}
+.assinatura small{
+	width: 100%;
+	display: block;
+	text-align: center;
+	border-top: solid 1px black;
+}
+.page-breaker{
+	display: block;
+	page-break-inside: avoid;
+	page-break-before: always;
+}

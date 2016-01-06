@@ -1,0 +1,30 @@
+CATEGORIA
+----------
+id
+nome
+categoria_id
+
+========================
+
+PRODUTO
+---------------
+id
+nome
+produto_id
+
+===========================
+
+CATEGORIA_PRODUTO
+----------------
+produto_id
+categoria_id
+
+=============================
+
+CONTROLE
+---------------
+id
+usuario_id
+retirante_id||colocante???? // o cara tirou ""
+quantidade
+data/ datetime
